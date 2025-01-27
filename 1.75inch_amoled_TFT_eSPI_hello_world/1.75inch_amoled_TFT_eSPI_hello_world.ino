@@ -130,7 +130,6 @@ void setup()
     lcd_setRotation(0); //adjust #define display_column_offset for different rotations
     lcd_brightness(100); // 0-255    
     sprite.createSprite(466, 466);    // full screen landscape sprite in psram
-    sprite.setSwapBytes(1);
     draw_first();
     
 }
